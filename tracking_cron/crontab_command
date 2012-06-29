@@ -1,0 +1,7 @@
+#!/bin/bash
+PROJECT_PATH='/Users/solomon/Projects/Zuqqa/src/zuqqa'
+
+echo "Update the visitor tracking statistics"
+echo "Run the script on $PROJECT_PATH"
+cd $PROJECT_PATH
+python manage.py update_tracking
